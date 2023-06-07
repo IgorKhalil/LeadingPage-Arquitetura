@@ -1,0 +1,108 @@
+*{
+    font-family: inter;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    
+}
+#secao-menusuperior{
+    background-color: #303030;
+    color: white;
+}
+#titulo-menusuperior{
+    margin: 0px 354px 0px 62px;
+    padding-top: 206px;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    text-align: left;
+
+}
+#texto-menusuperior{
+    margin: 20px 354px 0px 62px;
+    font-size: 20px;
+    padding-bottom:149px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+
+}
+#secao-menuinformacional{
+    background-color: #F9F9F9;
+    color: black;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 96px 64px 66px 171px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    
+    
+}
+#secao-menuimagem{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 82px;
+    margin-bottom: 92px;
+    margin-right: 54px;
+    margin-left: 77px;
+    
+}
+#texto-menuimagem{
+    margin: 222px 64px 222px 77px;
+    color: black;
+    font-size: 20px;
+}
+
+#secao-dados{
+    background-color: #303030;
+    color: white;
+    text-align: center;
+}
+#titulo-dados{
+    padding-top: 82px;
+    margin-bottom: 48px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+}
+input{
+    border-radius: 10px;
+    width: 508px;
+    height: 72px;
+    margin-bottom: 35px;
+    padding-left: 30px;
+    font-weight: bolder;
+    border: 0px;
+    background-color: white;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+
+
+}
+button{
+    background-color: #C07212;
+    width: 286px;
+    height: 74px;
+    margin-bottom: 87px;
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 700;
+}
+button:hover{
+    background-color: #da8114;
+    color: white;
+    transform: translateY(-5px);
+    transition: 0.9s;
+    box-shadow: 0px 15px 20px #c0721271;
+}
